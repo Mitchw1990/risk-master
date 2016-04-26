@@ -8,5 +8,7 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		new LwjglApplication(new RiskGame(), config);
+
+		System.out.println("This is the main method.");
 	}
 }
