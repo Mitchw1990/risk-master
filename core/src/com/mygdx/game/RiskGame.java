@@ -14,7 +14,7 @@ public class RiskGame extends ApplicationAdapter {
 	public void create () {
 		batch = new SpriteBatch();
 		img = new Texture("board.png");
-		System.out.println("testing 123...");
+		System.out.println("testing 123..");
 	}
 
 	@Override
